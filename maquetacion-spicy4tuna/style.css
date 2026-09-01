@@ -1,13 +1,15 @@
 body * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
 }
 
+/* HEADER */
 header {
     align-items: center;
     background-color: hsl(0, 0%, 0%);
     display: flex;
+    height: 10vh;
     justify-content: space-between;
-    padding: 1vh 15vh;
 }
 
 .logo img {
@@ -68,3 +70,5 @@ header {
 .menu .button-element-right:hover a {
     color: white;
 }
+
+/* MAIN */
