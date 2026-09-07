@@ -1,0 +1,336 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: hsl(15, 33%, 98%);
+
+    display: flex;
+
+    /* Evita scrollbar general */
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+
+/* =========================
+   SIDEBAR
+========================= */
+
+aside {
+    width: 260px;
+    height: 100vh;
+
+    background-color: hsl(210, 3%, 12%);
+    color: hsl(15, 33%, 98%);
+
+    display: flex;
+    flex-direction: column;
+
+    flex-shrink: 0;
+
+    overflow: hidden;
+}
+
+
+/* MENU */
+
+.menu {
+    width: 100%;
+    padding: 1rem;
+
+    flex-shrink: 0;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 1.5rem;
+}
+
+.menu-tgt {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu-tgt svg {
+    fill: hsl(15, 33%, 98%);
+    width: 30px;
+}
+
+.menu-btn .cbox-robot {
+    font-size: 30px;
+}
+
+.menu-btn-pin {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    gap: 0.7rem;
+    margin-top: 1rem;
+}
+
+.menu-btn-pin button {
+    display: flex;
+    align-items: center;
+
+    color: hsl(15, 33%, 98%);
+
+    gap: 0.6rem;
+}
+
+.menu-btn-pin button svg {
+    fill: hsl(15, 33%, 98%);
+    width: 30px;
+}
+
+
+/* =========================
+   CHATS SIDEBAR
+========================= */
+
+.hero-cta-left {
+    width: 100%;
+
+    /* Ocupa solamente el espacio restante */
+    flex: 1;
+
+    min-height: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: hsl(210, 3%, 12%);
+    color: hsl(15, 33%, 98%);
+}
+
+
+/* Esta es la ÚNICA zona que tendrá scroll */
+
+.hero-left-chats {
+    flex: 1;
+
+    min-height: 0;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    padding: 1rem;
+}
+
+.hero-left-chats::-webkit-scrollbar {
+    width: 7px;
+}
+
+.hero-left-chats::-webkit-scrollbar-thumb {
+    background: hsl(0, 0%, 33%);
+    border-radius: 10px;
+}
+
+.hero-left-chats::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.hero-left-chats li a {
+    display: block;
+
+    width: 100%;
+
+    white-space: nowrap;
+    overflow: hidden;
+
+    -webkit-mask-image: linear-gradient(to right,
+            black 75%,
+            transparent 100%);
+
+    mask-image: linear-gradient(to right,
+            black 75%,
+            transparent 100%);
+}
+
+
+/* USER AREA */
+
+.hero-left-userarea {
+    width: 100%;
+
+    padding: 1rem;
+
+    background-color: hsl(0, 0%, 1%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-shrink: 0;
+}
+
+.hero-userarea-photo svg {
+    fill: hsl(15, 33%, 98%);
+    width: 40px;
+}
+
+.hero-userarea-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-userarea-text h5 {
+    font-size: 0.8rem;
+}
+
+.hero-userarea-market {
+    fill: hsl(15, 33%, 98%);
+    width: 20px;
+}
+
+
+/* =========================
+   MAIN
+========================= */
+
+main {
+    flex: 1;
+
+    height: 100vh;
+
+    min-width: 0;
+
+    overflow: hidden;
+}
+
+
+/* HERO CTA */
+
+.hero-cta {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 3vh;
+
+    /* ELIMINAMOS:
+       position: relative;
+       left: 25%;
+       bottom: 70vh;
+    */
+}
+
+
+/* INPUT */
+
+.main-cta {
+    width: min(700px, 90%);
+}
+
+.main-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.main-button {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+
+    border: 1px solid #aaa;
+    border-radius: 20px;
+
+    padding: 0.8rem 1rem;
+}
+
+.main-button svg {
+    width: 30px;
+}
+
+.main-button .text {
+    flex: 1;
+}
+
+.main-button input {
+    width: 100%;
+
+    border: none;
+    outline: none;
+
+    background: transparent;
+
+    font: inherit;
+
+    padding: 0.5rem;
+}
+
+
+/* SUGGESTIONS */
+
+.main-suggestions {
+    margin-top: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 1rem;
+}
+
+.main-suggestions button {
+    display: flex;
+    align-items: center;
+
+    gap: 0.5rem;
+}
+
+.main-suggestions svg {
+    width: 30px;
+}

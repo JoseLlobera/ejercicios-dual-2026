@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+body {
+    background-color: hsl(15, 33%, 98%);
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+/* BODY */
+/* MENU */
+.all {
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    z-index: 1001;
+    overflow: scroll;
+}
+
+.menu {
+    color: hsl(15, 33%, 98%);
+    background-color: hsl(210, 3%, 12%);
+    width: 80vh;
+}
+
+.menu-header {
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+.menu-tgt {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+
+.menu-tgt svg {
+    fill: hsl(15, 33%, 98%);
+    width: 30px;
+}
+
+.menu-btn .cbox-robot {
+    font-size: 30px;
+}
+
+
+.menu-btn-pin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-btn-pin button {
+
+    align-items: center;
+    color: hsl(15, 33%, 98%);
+    display: flex;
+    gap: 0.6rem;
+}
+
+.menu-btn-pin button svg {
+    fill: hsl(15, 33%, 98%);
+    width: 30px;
+}
+
+
+main {}
+
+/* HERO CTA LEFT */
+.hero-cta-left {
+    color: hsl(15, 33%, 98%);
+    background-color: hsl(210, 3%, 12%);
+    display: flex;
+    flex-direction: column;
+    width: 25vh;
+    height: 100vh;
+    padding-top: 3rem;
+}
+
+.hero-left-chats {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.hero-left-chats::-webkit-scrollbar {
+    width: 10px;
+}
+
+.hero-left-chats::-webkit-scrollbar-thumb {
+    background: hsl(0, 0%, 33%);
+    border-radius: 10px;
+}
+
+.hero-left-chats::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.hero-left-chats li a {
+    display: block;
+    width: 100%;
+
+    white-space: nowrap;
+    overflow: hidden;
+
+    -webkit-mask-image: linear-gradient(to right,
+            black 75%,
+            transparent 100%);
+
+    mask-image: linear-gradient(to right,
+            black 75%,
+            transparent 100%);
+}
+
+.hero-left-userarea {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 25vh;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 1%);
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+.hero-userarea-photo svg {
+    fill: hsl(15, 33%, 98%);
+    width: 40px;
+}
+
+.hero-userarea-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero-userarea-text h5 {
+    font-size: 0.8rem;
+}
+
+.hero-userarea-market {
+    fill: hsl(15, 33%, 98%);
+    width: 20px;
+}
+
+/* HERO CTA */
+
+.hero-cta {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 1000;
+    left: 25%;
+    bottom: 50vh;
+}
+
+.main-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-button svg {
+    width: 30px;
+}
+
+.main-suggestions svg {
+    width: 30px;
+}
