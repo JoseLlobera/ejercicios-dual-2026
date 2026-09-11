@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* BODY */
+body {
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.171);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* BUTTON */
+.button-open {
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+  position: absolute;
+  top: 2%;
+  right: 5%;
+  z-index: 1000;
+}
+
+.button-open button {
+  background-color: hsl(0, 0%, 100%);
+  border: 3px solid purple;
+  box-shadow: 0px 2px 20px green;
+  padding: 1rem;
+}
+
+/* WINDOW */
+.window {
+
+  align-items: center;
+  /* display: none; */
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+  width: 30%;
+  z-index: 1001;
+}
+
+.window-button {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.button-right .button-left,
+button {
+  color: purple;
+  font-weight: 700;
+  padding: 0.3rem 0.8rem;
+}
+
+.button-left button {
+  background-color: rgba(0, 128, 0, 0.555);
+}
+
+.button-right button {
+  background-color: hsla(0, 100%, 50%, 0.555);
+}
