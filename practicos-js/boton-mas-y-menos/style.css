@@ -1,3 +1,43 @@
 * {
   box-sizing: border-box;
 }
+
+svg {
+  width: 50px;
+}
+
+button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(300, 37%, 62%);
+}
+
+/* BODY */
+.main-buttons {
+  align-items: center;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttons-all {
+  align-items: center;
+  background-color: hsl(300, 54%, 54%);
+  border: 3px solid hsl(0, 0%, 0%);
+  border-radius: 20px;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.result {
+  font-size: 3rem;
+  background-color: hsla(0, 0%, 100%, 0.705);
+  padding: 4rem;
+}

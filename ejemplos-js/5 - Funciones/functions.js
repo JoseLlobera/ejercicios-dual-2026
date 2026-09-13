@@ -20,7 +20,7 @@ export default (() => {
   // En este caso la función se llama "hello".
 
   //2.1 O en su versión más moderna, con una variable que tenga como valor una función anónima. 
-  // Por ejemplo: let hello = name => {}
+  // Por ejemplo: let hello = name => {}  
 
   //Una función puede tener parámetros que son las palabras que van dentro de los paréntesis. 
   //Un parámetro es una variable local que sólo existe dentro de la función. Y que se le puede
@@ -32,7 +32,7 @@ export default (() => {
 
   //En este caso la función se llama "validateAge" y recibe un parámetro llamado "age".
   let validateAge = age => {
-    
+
     if (age < 18) {
       // Algunas funciones pueden devolver un valor a quien las llama. Normalmente
       // esto se hace con la palabra reservada return. En este caso la función
