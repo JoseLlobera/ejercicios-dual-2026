@@ -3,7 +3,6 @@ export default (() => {
     const lessButton = document.querySelector(".less-button");
     const counter = document.querySelector(".result");
 
-
     let value = 0;
 
     const changeValue = amount => {

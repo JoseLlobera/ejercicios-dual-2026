@@ -3,15 +3,12 @@ export default (() => {
     const modal = document.querySelector(".window")
     const closeButton = document.querySelector(".close")
 
-    function openModal() {
+    openButton.addEventListener("click", () => {
         modal.hidden = false;
-    }
+    })
 
-    function closeModal() {
+    closeButton.addEventListener("click", () => {
         modal.hidden = true;
-    }
-
-    openButton.addEventListener("click", openModal);
-    closeButton.addEventListener("click", closeModal);
+    })
 
 })()

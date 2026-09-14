@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-size: 36px;
+}
+
+button {
+  align-items: center;
+  background-color: hsl(186, 28%, 21%);
+  border: 2px solid hsl(345, 38%, 47%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+
+}
+
+button:hover {
+  background-color: hsla(186, 28%, 21%, 0.473);
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.calc-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.calc-element {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
