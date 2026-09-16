@@ -31,7 +31,7 @@
       if (!years[year]) {
         years[year] = []
       }
-      years[year].push(!month[month])
+      years[year].push(month)
 
 
       return years
