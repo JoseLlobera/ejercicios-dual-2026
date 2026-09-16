@@ -21,5 +21,17 @@ export default (() => {
     if (event.target.closest('.equal')) {
       inputValue.value = eval(inputValue.value)
     }
+
+    if (event.target.closest('.delete-one')) {
+      inputValue.value = inputValue.value.slice(0, -1)
+    }
+
+    if (inputValue.value === '') {
+      inputValue.value = '0'
+    }
+
+    if (event.target.closest('.delete-all')) {
+      inputValue.value = 0;
+    }
   })
 })();
