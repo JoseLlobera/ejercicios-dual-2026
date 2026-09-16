@@ -50,7 +50,7 @@
 // let numbers = [1,2,11,3,4,5,6,7,8,9];
 // console.log(numbers.includes(5));
 
-// reverse() -> invierte el orden de los elementos del array 
+// reverse() -> invierte el orden de los elementos del array
 // let numbers = [1,2,11,3,4,5,6,7,8,9];
 // console.log(numbers.reverse());
 
@@ -179,7 +179,7 @@
 //     console.log(`${key}: ${value}`);
 // });
 
-// Filtración de datos 
+// Filtración de datos
 
 // let users = [
 //     {
@@ -217,7 +217,7 @@
 //                 productName: "Libro",
 //                 price: 10
 //             },
-//             {   
+//             {
 //                 productName: "Pantalla",
 //                 price: 200
 //             },

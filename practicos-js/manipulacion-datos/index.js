@@ -25,7 +25,19 @@
         element.sexo === "F"
     })
 
-    await fs.writeFile('./total.json', JSON.stringify(filterData, null, 2))
+    filterData = filterData.reduce((years, element) => {
+      const [month, year] = element.periodo.split('/')
+
+      if (!years[year]) {
+        years[year] = []
+      }
+      years[year].push(!month[month])
+
+
+      return years
+    }, {})
+
+    await fs.writeFile('./resultado.json', JSON.stringify(filterData, null, 2))
 
   } catch (error) {
     console.log(error)
