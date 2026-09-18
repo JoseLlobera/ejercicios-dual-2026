@@ -26,7 +26,7 @@
       let municipio = nombreMunicipio.join(" ")
       if (municipio.includes("(")) {
         let articulo = municipio.split(" ").pop();
-        articulo.replace('()' : " ")
+
         console.log(articulo);
       }
 
