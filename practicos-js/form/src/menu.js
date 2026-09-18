@@ -1,12 +1,13 @@
 export default (() => {
   const formulario = document.querySelector('.myForm');
+  const notError = document.querySelector('.noti-left');
+  const notSucces = document.querySelector('.noti-right');
 
-  // Escucha el evento de envío (submit)
+
+
   formulario.addEventListener('submit', (evento) => {
-    // Evita que la página se recargue automáticamente
     evento.preventDefault();
 
-    // Muestra la alerta en el navegador
     alert("¡El formulario se ha enviado correctamente!");
   });
 })()

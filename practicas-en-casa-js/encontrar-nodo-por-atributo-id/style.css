@@ -44,7 +44,10 @@ p {
     padding: 1.5rem;
 }
 
-.left button:hover,
+.left button:hover {
+    background-color: red;
+}
+
 .right button:hover {
-    background-color: white;
+    background-color: blue;
 }
