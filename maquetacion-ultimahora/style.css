@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-menu {
+  align-items: center;
+  background-color: hsl(0, 0%, 90%);
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8rem;
+  height: 3vh;
+  justify-content: space-around;
+}
+
+.top-menu-text {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 0.3rem;
+}
+
+.top-menu-text h2 {
+  color: hsl(0, 100%, 50%);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.top-menu-text h3 {
+  font-size: 0.8rem;
+}
+
+.top-menu-text a {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+}
+
+.top-menu-text-last {
+  align-items: center;
+  display: flex;
+  gap: 0.3rem;
+}
+
+.top-menu-text-last a {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+  text-transform: uppercase;
+}
