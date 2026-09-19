@@ -1,5 +1,11 @@
 * {
   box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: transparent;
 }
 
 body {
@@ -54,4 +60,90 @@ header {
   color: hsl(0, 0%, 0%);
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.menu {
+  align-items: center;
+  background-color: hsl(0, 100%, 50%);
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.main-text {
+  font-size: 1.2rem;
+  letter-spacing: -3px;
+  text-align: center;
+}
+
+.img svg {
+  cursor: pointer;
+  fill: hsl(0, 0%, 100%);
+  width: 50px;
+}
+
+.main-text {
+  color: hsl(0, 0%, 100%);
+}
+
+.user-area {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.left-button {
+  align-items: center;
+  color: hsl(0, 0%, 0%);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(0, 0%, 90%);
+  border-radius: 5px;
+  padding: 0.5rem 0.9rem;
+}
+
+.left-button button {
+  background-color: transparent;
+}
+
+.left-button svg {
+  width: 12px;
+}
+
+.right-button button {
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(47, 100%, 50%);
+  border-radius: 5px;
+  font-style: italic;
+  padding: 0.6rem 0.9rem;
+}
+
+nav {
+  align-items: center;
+  background-color: hsl(0, 0%, 90%);
+  display: flex;
+  justify-content: center;
+}
+
+.nav-container {
+  align-items: center;
+  color: hsl(0, 0%, 0%);
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: 500;
+  gap: 1.5rem;
+  height: 2rem;
+  text-transform: uppercase;
+}
+
+.nav-container a {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-container svg {
+  width: 25px;
 }
