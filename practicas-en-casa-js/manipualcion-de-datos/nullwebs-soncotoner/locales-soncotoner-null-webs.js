@@ -28,12 +28,6 @@
       return acumulator;
     }, []);
 
-
-
-
-
-
-
     await fs.writeFile('./data/nullwebs-soncotoner.json', JSON.stringify(filterData, null, 2))
 
   } catch (error) {
