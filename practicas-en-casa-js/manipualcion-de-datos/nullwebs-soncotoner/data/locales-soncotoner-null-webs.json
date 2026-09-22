@@ -1,0 +1,318 @@
+{
+  "zona": {
+    "nombre": "Son Cotoner",
+    "municipio": "Palma",
+    "provincia": "Illes Balears",
+    "cobertura": "Barrio de Son Cotoner y entorno comercial inmediato mostrado por Google Maps"
+  },
+  "fecha_revision": "2026-09-20",
+  "criterio": "Negocios activos con ficha pública para los que no se ha localizado una web propia tras revisar Google Maps y buscar por nombre, dirección y teléfono. Los perfiles en redes sociales, plataformas de reserva y directorios no se consideran web propia.",
+  "resultado": "Se han localizado 20 candidatos sin web propia.",
+  "total": 20,
+  "locales": [
+    {
+      "nombre": "Bar Son Cotoner",
+      "categoria": "Bar",
+      "direccion": "Carrer de Pasqual Ribot, 30, 07011 Palma",
+      "telefono": "971 453 237",
+      "email": null,
+      "valoracion_google": 4.3,
+      "numero_resenas_google": 18,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Alta",
+      "fuente_contacto": "Firmania, ficha actualizada en junio de 2026"
+    },
+    {
+      "nombre": "Bar Centro",
+      "categoria": "Bar",
+      "direccion": "Carrer de Francesc Martí i Móra, 29, 07011 Palma",
+      "telefono": null,
+      "email": null,
+      "valoracion_google": 4.2,
+      "numero_resenas_google": 166,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Alta",
+      "fuente_contacto": "Google Maps y directorios locales"
+    },
+    {
+      "nombre": "Bar Jose's 2",
+      "categoria": "Cervecería y tapas",
+      "direccion": "Carrer dels Ocells, 33, 07011 Palma",
+      "telefono": null,
+      "email": null,
+      "valoracion_google": 4.0,
+      "numero_resenas_google": 55,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Alta",
+      "fuente_contacto": "Google Maps y Mallorca.com"
+    },
+    {
+      "nombre": "Bar 4 Esquinas",
+      "categoria": "Bar",
+      "direccion": "Carrer del Bisbe Sastre, 9, 07011 Palma",
+      "telefono": null,
+      "email": null,
+      "valoracion_google": 5.0,
+      "numero_resenas_google": 9,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Alta",
+      "fuente_contacto": "Google Maps y Mallorca.com"
+    },
+    {
+      "nombre": "Cafetería Restaurante R.J.J.",
+      "categoria": "Cafetería y bar de tapas",
+      "direccion": "Carrer dels Ocells, 34, 07011 Palma",
+      "telefono": "645 989 520",
+      "email": null,
+      "valoracion_google": 4.3,
+      "numero_resenas_google": 111,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Alta",
+      "fuente_contacto": "Cylex y Google Maps"
+    },
+    {
+      "nombre": "Barbería LA FAMA",
+      "categoria": "Barbería y peluquería",
+      "direccion": "Avinguda de Sant Ferran, 25, 07011 Palma",
+      "telefono": "971 732 374",
+      "email": null,
+      "valoracion_google": 4.9,
+      "numero_resenas_google": 907,
+      "ambito": "Entorno inmediato",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Alta",
+      "fuente_contacto": "Google Maps y Mispelus"
+    },
+    {
+      "nombre": "dialex",
+      "categoria": "Peluquería",
+      "direccion": "Carrer de Pasqual Ribot, 07011 Palma",
+      "telefono": null,
+      "email": null,
+      "valoracion_google": 4.1,
+      "numero_resenas_google": 25,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Media",
+      "fuente_contacto": "Google Maps y Guía Palma; el número publicado aparece incompleto"
+    },
+    {
+      "nombre": "Galés Peluqueros Barber",
+      "categoria": "Peluquería y barbería",
+      "direccion": "Carrer dels Ocells, 27, 07011 Palma",
+      "telefono": "971 730 617",
+      "telefono_alternativo": "971 730 061",
+      "email": "juan.gales@hotmail.com",
+      "valoracion_google": 4.7,
+      "numero_resenas_google": 156,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Alta",
+      "fuente_contacto": "TodosBiz y Google Maps"
+    },
+    {
+      "nombre": "Model's Cortes",
+      "categoria": "Peluquería",
+      "direccion": "Carrer de Pasqual Ribot, 36A, 07011 Palma",
+      "telefono": null,
+      "email": null,
+      "valoracion_google": 5.0,
+      "numero_resenas_google": 14,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Alta",
+      "fuente_contacto": "Google Maps y Fresha"
+    },
+    {
+      "nombre": "Nines Montero Peluquería",
+      "categoria": "Peluquería",
+      "direccion": "Avinguda de Sant Ferran, 8, bajos, 07011 Palma",
+      "telefono": "971 450 808",
+      "email": null,
+      "valoracion_google": 4.7,
+      "numero_resenas_google": 62,
+      "ambito": "Entorno inmediato",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Alta",
+      "fuente_contacto": "Cylex, Peluquerias.net y Google Maps"
+    },
+    {
+      "nombre": "Moda Azabache",
+      "categoria": "Tienda de ropa",
+      "direccion": "Carrer de Francesc Martí i Móra, 65, 07011 Palma",
+      "telefono": "971 903 036",
+      "email": null,
+      "valoracion_google": 5.0,
+      "numero_resenas_google": 11,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Alta",
+      "fuente_contacto": "Google Maps, censo comercial de Palma y directorios"
+    },
+    {
+      "nombre": "Multiservicios JCP",
+      "categoria": "Carpintería, mobiliario y servicios generales",
+      "direccion": "Carrer del Principat, 42, 07011 Palma",
+      "telefono": "637 850 455",
+      "email": null,
+      "valoracion_google": null,
+      "numero_resenas_google": 0,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Alta",
+      "fuente_contacto": "Cylex y Google Maps"
+    },
+    {
+      "nombre": "MP Car Mallorca",
+      "categoria": "Taller mecánico",
+      "direccion": "Carrer del Bisbe Sastre, 24, 07011 Palma",
+      "telefono": "971 732 365",
+      "email": null,
+      "valoracion_google": 4.9,
+      "numero_resenas_google": 33,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada; el antiguo dominio ya no está disponible",
+      "confianza": "Alta",
+      "fuente_contacto": "TodosBiz, Guía Talleres y Google Maps"
+    },
+    {
+      "nombre": "Taller Mecánico Álvarez",
+      "categoria": "Taller mecánico de coches y motos",
+      "direccion": "Carrer de Lope de Vega, 18, 07013 Palma",
+      "telefono": "971 450 192",
+      "email": null,
+      "valoracion_google": 4.8,
+      "numero_resenas_google": 47,
+      "ambito": "Entorno inmediato",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Alta",
+      "fuente_contacto": "Mallorca Map y Google Maps"
+    },
+    {
+      "nombre": "Lorenzo Bota Garia",
+      "categoria": "Taller de reparación de automóviles",
+      "direccion": "Carrer del Bisbe Sastre, 20, 07011 Palma",
+      "telefono": "971 282 302",
+      "email": null,
+      "valoracion_google": 5.0,
+      "numero_resenas_google": 1,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Media",
+      "fuente_contacto": "TodosBiz y Google Maps"
+    },
+    {
+      "nombre": "Taller Motoro",
+      "categoria": "Taller de reparación de automóviles",
+      "direccion": "Carrer de Jeroni Alemany, 26, 07011 Palma",
+      "telefono": "658 940 326",
+      "email": null,
+      "valoracion_google": 4.5,
+      "numero_resenas_google": 2,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Media",
+      "fuente_contacto": "Google Maps"
+    },
+    {
+      "nombre": "Panadería Buen Pastor",
+      "categoria": "Panadería y pastelería",
+      "direccion": "Carrer del Principat, 37, 07011 Palma",
+      "telefono": "657 247 062",
+      "email": null,
+      "valoracion_google": 4.8,
+      "numero_resenas_google": 113,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Alta",
+      "fuente_contacto": "Cybo, TartaPan y Google Maps"
+    },
+    {
+      "nombre": "Panadería Pastelería San Bartolomé",
+      "categoria": "Panadería y pastelería",
+      "direccion": "Carrer de Francesc Martí i Móra, 35, 07011 Palma",
+      "telefono": "971 737 873",
+      "email": null,
+      "valoracion_google": 4.5,
+      "numero_resenas_google": 204,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada; dispone de Instagram",
+      "confianza": "Alta",
+      "fuente_contacto": "TodosBiz, Restaurant Guru y Google Maps"
+    },
+    {
+      "nombre": "Panadería Bellet",
+      "categoria": "Panadería",
+      "direccion": "Carrer de Pasqual Ribot, 15C, 07011 Palma",
+      "telefono": "697 126 388",
+      "email": null,
+      "valoracion_google": 4.8,
+      "numero_resenas_google": 51,
+      "ambito": "Son Cotoner",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Alta",
+      "fuente_contacto": "TartaPan, PanaderiaParte y Google Maps"
+    },
+    {
+      "nombre": "Panadería Pastelería Garau S.L.",
+      "categoria": "Panadería y pastelería",
+      "direccion": "Avinguda de Sant Ferran, 18, 07011 Palma",
+      "telefono": "971 454 689",
+      "email": null,
+      "valoracion_google": 3.9,
+      "numero_resenas_google": 30,
+      "ambito": "Entorno inmediato",
+      "estado_web": "Sin web propia localizada",
+      "confianza": "Alta",
+      "fuente_contacto": "Restaurant Guru, Mallorca.com y Google Maps"
+    }
+  ],
+  "resumen_por_categoria": {
+    "hosteleria": 5,
+    "peluqueria_y_belleza": 5,
+    "comercio_y_servicios": 2,
+    "talleres": 4,
+    "panaderias": 4
+  },
+  "exclusiones_relevantes": [
+    {
+      "nombre": "Stock Sofas Mallorca",
+      "motivo": "Tiene web propia."
+    },
+    {
+      "nombre": "La Tienda del Navegante",
+      "motivo": "Tiene presencia web comercial propia."
+    },
+    {
+      "nombre": "Ferretería García e Hijo",
+      "motivo": "Tiene la web ferreteria-garcia.es."
+    },
+    {
+      "nombre": "Taller Hernández",
+      "motivo": "Tiene página propia en Google Sites."
+    },
+    {
+      "nombre": "Taller SGP",
+      "motivo": "Tiene página propia en Wix."
+    },
+    {
+      "nombre": "Talleres Marte",
+      "motivo": "Misma dirección y teléfono que MP Car Mallorca; se trata como ficha duplicada o denominación anterior."
+    }
+  ],
+  "fuentes_principales": [
+    "https://www.google.com/maps/",
+    "https://www.mallorca.com/es/directorio/",
+    "https://www.todosbiz.es/",
+    "https://www.cylex.es/",
+    "https://tartapan.com/",
+    "https://guiatalleres.com/",
+    "https://federacionafedeco.es/files/2025_Censo_de_Palma_por_distritos.pdf"
+  ],
+  "advertencia": "Este es un barrido comercial verificado, no un censo municipal exhaustivo. 'Sin web propia localizada' no garantiza de forma absoluta que no exista una web nueva, poco indexada o publicada después de la fecha de revisión."
+}
