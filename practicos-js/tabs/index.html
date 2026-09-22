@@ -11,26 +11,26 @@
 
 <body>
   <div class="container-general">
-    <div class="tab">
-      <button class="tablinks" data-city="tokyo">Tokyo</button>
-      <button class="tablinks" data-city="la">LA</button>
-      <button class="tablinks" data-city="bali">Bali</button>
+    <div class="tabs">
+      <button class="tab active" data-tab="tokyo">General</button>
+      <button class="tab" data-tab="la">Images</button>
     </div>
 
-    <div class="tabcontent">
-      <h3>Tokyo</h3>
-      <p>Tokyo is in Japan</p>
+    <div class="tab-contents">
+      <form>
+        <div class="tab-content active" data-tab="tokyo">
+          <div class="form-element">
+            <label for="">Nombre</label>
+            <input type="text">
+          </div>
+        </div>
+        <div class="tab-content" data-tab="la">
+          <label for="">Edad</label>
+          <input type="text">
+        </div>
+      </form>
     </div>
-
-    <div class="tabcontent">
-      <h3>LA</h3>
-      <p>LA is in United States</p>
-    </div>
-
-    <div class="tabcontent">
-      <h3>Bali</h3>
-      <p>Bali is in Indonesia.</p>
-    </div>
+  </div>
 </body>
 
 </html>

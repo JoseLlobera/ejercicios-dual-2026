@@ -47,13 +47,13 @@ body {
   background-color: hsl(186, 28%, 21%);
 }
 
-.tabcontent {
+.tab-content {
   display: none;
   padding: 5px 12px;
   border: 1px solid hsl(0, 0%, 0%);
   border-top: none;
 }
 
-.tabcontent.active {
+.tab-content.active {
   display: block;
 }
