@@ -6,8 +6,9 @@
 
     const file = await fs.readFile('./data/locales-soncotoner-null-webs.json', 'utf-8')
     let data = JSON.parse(file)
+    console.log(data)
 
-    let filter = data.filter((element) => {
+    let filter = data.locales.filter((element) => {
       return element['email'] !== null &&
         element['telefono'] !== null
     })
